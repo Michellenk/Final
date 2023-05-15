@@ -1,0 +1,113 @@
+html{
+    box-sizing: border-box;
+    font-family: 'Gloock', serif;
+    text-align: center;
+}
+
+*,
+* ::before,
+* ::after {
+    box-sizing: inherit;
+}
+
+#finalNote {
+    background-color: white;
+    color: black;
+    font-size: 1.23rem;
+    margin-bottom: 4rem;
+}
+
+
+.yah{
+    background-color: #161e24;
+    background-image:url(../img/Paris_Bridge-512.jpg) ;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 2rem;
+    padding-top: 400px;
+    padding-bottom: 450px;
+    font-style: bold;
+}
+
+nav{
+    background-color: #FFE9B8;
+    border: 3px;
+    border-color: black;
+    color: black;
+    
+  text-decoration: none;
+
+}
+
+nav li{
+    display: inline;
+}
+
+nav a {
+   
+    display: inline-block;
+    padding: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav a:active,
+nav a:hover{
+    text-decoration: dotted;
+}
+
+nav a:visited{
+    color:black;
+}
+
+.hyperlinks{
+    background-color: pink;
+    background-image: url(../img/japan-osaka-pixabay-1280.jpg);
+    background-repeat: no-repeat;
+    color: #a0e6c0;
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 1.105rem;
+    line-height: 500%;
+    padding-top: 200px ;
+    padding-bottom: 270px  ;
+}
+
+.hyperlinks a:hover,
+.hyperlinks a:active{
+    text-transform: uppercase;
+}
+
+.hyperlinks a:visited{
+    color: #a0e6c0;
+    text-decoration: dotted;
+}
+
+footer{
+
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+.form{
+    background-color: #b8f1ff;
+}
+
+.line1{
+    display: inline;
+    margin-bottom: 500px;
+}
+   
+.line2{
+    display: inline;
+}
+
+footer h2{
+
+    text-align: left;
+
+}
+
+#submit{
+    border-color: #a0e6c0;
+    color: #b8f1ff;
+}
